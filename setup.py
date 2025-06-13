@@ -3,8 +3,9 @@ from Cython.Build import cythonize
 
 ext = Extension(
     name="redirect",
-    sources=["redirect.pyx", "redirect_cpp.cpp"],
+    sources=["redirect.pyx"],  # Only the pyx file now
     language="c++",
+    include_dirs=["."],        # Make sure .h is found
 )
 
 setup(
