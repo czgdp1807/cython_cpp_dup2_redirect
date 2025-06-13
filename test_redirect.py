@@ -7,7 +7,6 @@ print("[Python] Before redirection")
 redirect.redirect("output.txt")
 
 sys.stdout.flush()
-sys.stdout = open(1, "w")
+sys.stdout = open(1, "a")
 
 print("[Python] After redirection")
-os.fdopen(1, "w").write("[Python] Written using fdopen\n")
