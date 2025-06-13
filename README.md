@@ -30,7 +30,7 @@ Check `output.txt` for redirected output.
 
 ## 📄 Files
 
-- `redirect.cpp` — C++ implementation using `_dup2`
+- `redirect_cpp.h` — C++ implementation using `_dup2`
 - `redirect.pyx` — Cython wrapper
 - `setup.py` — Build script
 - `test_redirect.py` — Python test
