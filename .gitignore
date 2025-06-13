@@ -1,6 +1,6 @@
 *.pyd
 *.c
-*.cpp
+redirect.cpp
 *.so
 *.dll
 __pycache__/
