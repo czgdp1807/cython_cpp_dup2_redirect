@@ -1,0 +1,9 @@
+*.pyd
+*.c
+*.cpp
+*.so
+*.dll
+__pycache__/
+build/
+output.txt
+.vscode/
